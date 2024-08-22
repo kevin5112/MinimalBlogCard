@@ -1,3 +1,75 @@
+:root {
+  background-color: #fafaf9;
+  --card-width: 336px;
+}
+
+.container {
+  padding-top: 164px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .blog-card {
-  background-color: black;
+  width: var(--card-width);
+  padding: 16px;
+  padding-bottom: 20px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.cactus-img {
+  height: 152px;
+  width: auto;
+  border-radius: 16px;
+}
+
+.tag-container {
+  display: flex;
+  padding-top: 16px;
+}
+
+.tag {
+  border-radius: 16px;
+  padding: 6px 16px;
+}
+
+.purple {
+  background-color: #e6d6fc;
+  color: #883ae1;
+  font-family: 'Sora', Calibri, sans-serif;
+  font-size: 10px;
+}
+
+.title {
+  padding-top: 16px;
+  font-family: 'Sora', Calibri, sans-serif;
+  font-size: 18px;
+  color: #20293a;
+  font-weight: 500;
+}
+
+.desc {
+  padding-top: 6px;
+  font-family: 'Sora', Calibri, sans-serif;
+  font-size: 14px;
+  color: #6c727f;
+  font-weight: 300;
+}
+
+.author {
+  padding-top: 20px;
+  font-family: 'Sora', Calibri, sans-serif;
+  font-size: 12px;
+  color: #6c727f;
+}
+
+.break {
+  margin-top: 20px;
+  margin-left: -16px;
+  margin-right: -16px;
+  height: 1px;
+  background-color: #fafaf9;
+  width: var(--card-width) + 32px;
 }
