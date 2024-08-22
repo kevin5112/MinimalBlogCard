@@ -40,6 +40,7 @@
   color: #883ae1;
   font-family: 'Sora', Calibri, sans-serif;
   font-size: 10px;
+  font-weight: 500;
 }
 
 .title {
@@ -70,6 +71,6 @@
   margin-left: -16px;
   margin-right: -16px;
   height: 1px;
-  background-color: #fafaf9;
+  background-color: #e5eaf0;
   width: var(--card-width) + 32px;
 }
